@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mohole Movie DataBase</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="./../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <style>
+    body{
+      padding: 30px 0;
+    }
+    #list{
+      min-height: 200px;
+      border: 1px dashed #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>MMDB <small>(Mohole Movie DataBase)</small></h1>
+    <hr>
+    <h3>Film nel DB</h3>
+    <section id="list">
+      <!-- qui i film  -->
+    </section>
+    <hr>
+    <h3>Aggiungi</h3>
+    <section>
+      <form>
+        <label>Titolo</label>
+        <input type="text" class="form-control" id="title"
+        placeholder="Un bel titolo">
+        <label>Anno</label>
+        <input type="number" class="form-control" id="year"
+        placeholder="1982">
+        <label>Poster (url)</label>
+        <input type="text" class="form-control" id="poster"
+        placeholder="https://www.image.on/theweb">
+        <br>
+        <button class="btn btn-primary" id="add">
+          Aggiungi
+        </button>
+      </form>
+    </section>
+    <footer>
+      <hr>
+      <p><small>Backend costruito con <a href="http://loopback.io/"
+        target="_blank">Strongloop</a></small></p>
+    </footer>
+  </div>
+
+
+  <template>
+
+  </template>
+
+<script src="mmdb.js"></script>
+</body>
+</html>

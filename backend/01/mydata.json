@@ -1,0 +1,10 @@
+{
+  "ids": {
+    "movie": 4
+  },
+  "models": {
+    "movie": {
+      "3": "{\"title\":\"Deadpool\",\"year\":2016,\"poster\":\"http://cdn.movieweb.com/img.site/PHacamrfbiULdc_1_l.jpg\",\"id\":3}"
+    }
+  }
+}

@@ -21,8 +21,8 @@ TBD
 * Clonare questo repository sul proprio PC
 * Aprire il terminale (Mac OS/Linux) o il prompt dei comandi (Windows)
 * Spostarsi nell cartella principale del repo scaricato
-* Avviare un webserver nella cartella attuale con il comando ```$ http-server```
-* Avviare un browser e digitare l'indirizzo "http://localhost:8080"
+* Installare le dipendenze con il comando ```$ npm install && bower install```
+* Avviare il progetto con il comando ```$ npm start```
 
 ### 4. Licenza
 MIT License

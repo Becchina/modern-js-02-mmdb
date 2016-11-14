@@ -1,0 +1,29 @@
+{
+  "name": "movie",
+  "plural": "movies",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "-movive-title-"
+    },
+    "year": {
+      "type": "number",
+      "required": true,
+      "default": 2016
+    },
+    "poster": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

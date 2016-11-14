@@ -1,0 +1,25 @@
+{
+  "name": "modern-js-02",
+  "version": "1.0.0",
+  "description": "Corso Javascript 02 @ Mohole",
+  "main": "index.js",
+  "scripts": {
+    "server": "http-server & open http://localhost:8080/starters",
+    "lez1": "node ./backend/01/server/server.js & npm run server",
+    "start": "http-server & open http://localhost:8080/lezioni",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohole/modern-js-02.git"
+  },
+  "author": "Salvatore Laisa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohole/modern-js-02/issues"
+  },
+  "homepage": "https://github.com/mohole/modern-js-02#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}
