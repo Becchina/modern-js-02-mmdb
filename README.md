@@ -22,7 +22,7 @@ TBD
 * Aprire il terminale (Mac OS/Linux) o il prompt dei comandi (Windows)
 * Spostarsi nell cartella principale del repo scaricato
 * Installare le dipendenze con il comando ```$ npm install && bower install```
-* Avviare il progetto con il comando ```$ npm start```
+* Avviare il progetto con il comando ```$ npm start``` per avviare il webserver sulla cartella **/lezioni** o ```$ npm run lezX``` (X = da 1 a 6)  per avviare una specifica lezione.
 
 ### 4. Licenza
 MIT License
