@@ -11,4 +11,12 @@ function getMovies(){
     })
 }
 
+function postMovie(){
+
+}
+
+function deleteMovie(){
+  
+}
+
 getMovies();
