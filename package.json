@@ -4,9 +4,12 @@
   "description": "Corso Javascript 02 @ Mohole",
   "main": "index.js",
   "scripts": {
-    "server": "http-server -s & open http://localhost:8080/starters",
-    "lez1": "node ./backend/01/server/server.js & npm run server",
-    "start": "http-server -s & open http://localhost:8080/lezioni",
+    "backend-1": "node ./backend/01/server/server.js",
+    "full-1": "npm run backend1 & npm run starters",
+
+    "starters": "http-server -s & open http://localhost:8080/starters",
+    "lezioni": "http-server -s & open http://localhost:8080/lezioni",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

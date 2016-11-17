@@ -9,7 +9,7 @@ TBD
   * [Bower](http://bower.io/) ```$ npm install -g bower```
   * [Http-Server](https://www.npmjs.com/package/http-server) ```$ npm install -g http-server```
 * Editor di codice ([Atom](https://atom.io/) è una valida opzione!)
-* Client [GitHub](https://desktop.github.com/)
+* Account GitHub +  [Client](https://desktop.github.com/)
 
 ### 1. Prerequisiti
 * Corso [Modern JS 01](https://github.com/mohole/modern-js-01)
@@ -17,14 +17,34 @@ TBD
 ### 2. Programma
 TBD
 
-### 3. Installazione e utilizzo
+### 3. Installazione
 * Clonare questo repository sul proprio PC
 * Aprire il terminale (Mac OS/Linux) o il prompt dei comandi (Windows)
 * Spostarsi nell cartella principale del repo scaricato
-* Installare le dipendenze con il comando ```$ npm install && bower install```
-* Avviare il progetto con il comando ```$ npm start``` per avviare il webserver sulla cartella **/lezioni** o ```$ npm run lezX``` (X = da 1 a 6)  per avviare una specifica lezione.
+* Installare le dipendenze con il comando ```npm install && bower install```.
 
-### 4. Licenza
+### 4. Scripts disponibili
+
+    npm run starters
+
+Avvia un webserver statico alla porta :8080 e apre nel browser la cartella degli starters.
+
+    npm run lezioni
+
+Avvia un webserver statico alla porta :8080 e apre nel browser la cartella delle lezioni.
+
+    npm run backend-1
+
+Avvia il server di backend di una lezione da 1 a 6 alla porta :3000.
+
+    npm run full-1
+
+Avvia il server di backend di una lezione da 1 a 6 alla porta :3000 e un webserver statico alla porta :8080 e apre nel browser la cartella degli starters.
+
+> **Nota:** se quest'ultima azione non dovesse funzionare sul proprio sistema avviare in due finestre (o tab) separate del terminale il comando per il backend necessario e starter/lezioni, in modo da avere server backend e client funzionanti in parallelo.
+
+
+### 5. Licenza
 MIT License
 
 Copyright (c) 2016 Mohole Snc
