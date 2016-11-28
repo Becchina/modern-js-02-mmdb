@@ -1,4 +1,4 @@
-# MODERN JS - 02
+# MODERN JS - 02 - MMDB (Mohole Movie DataBase)
 
 TBD
 
@@ -25,23 +25,19 @@ TBD
 
 ### 4. Scripts disponibili
 
-    npm run starters
+    npm run frontend
 
-Avvia un webserver statico alla porta :8080 e apre nel browser la cartella degli starters.
+Avvia un webserver statico alla porta :8080 e apre nel browser la cartella del frontend.
 
-    npm run lezioni
+    npm run backend
 
-Avvia un webserver statico alla porta :8080 e apre nel browser la cartella delle lezioni.
+Avvia il server di backend alla porta :3000.
 
-    npm run backend-1
+    npm run full
 
-Avvia il server di backend di una lezione da 1 a 6 alla porta :3000.
+Avvia il server di backend alla porta :3000 e un webserver statico alla porta :8080 e apre nel browser la cartella del frontend.
 
-    npm run full-1
-
-Avvia il server di backend di una lezione da 1 a 6 alla porta :3000 e un webserver statico alla porta :8080 e apre nel browser la cartella degli starters.
-
-> **Nota:** se quest'ultima azione non dovesse funzionare sul proprio sistema avviare in due finestre (o tab) separate del terminale il comando per il backend necessario e starter/lezioni, in modo da avere server backend e client funzionanti in parallelo.
+> **Nota:** se quest'ultima azione non dovesse funzionare sul proprio sistema avviare in due finestre (o tab) separate del terminale il comando per il backend necessario e frontend, in modo da avere server backend e client funzionanti in parallelo.
 
 
 ### 5. Licenza
