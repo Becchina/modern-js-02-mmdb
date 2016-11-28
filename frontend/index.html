@@ -32,7 +32,7 @@
     <h1>MMDB <small>(Mohole Movie DataBase)</small></h1>
     <hr>
     <h3>Film nel DB</h3>
-    <section id="list">
+    <section id="list" class="row">
       <!-- qui i film  -->
     </section>
     <hr>
@@ -61,10 +61,27 @@
     </footer>
   </div>
 
+  <!-- Template con segnaposti per variabili  -->
 
   <template>
 
+    <div class="col-xs-4">
+      <div class="card">
+        <img class="card-img-top" width="100%" height="200"
+        src="{{poster}}" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">{{title}}</h4>
+          <p class="card-text">{{year}}</p>
+          <button class="btn btn-danger"
+          data-id="{{id}}" onclick="deleteMovie(event)">
+            Delete
+          </button>
+        </div>
+      </div>
+    </div>
+
   </template>
+  <!-- Evento click del pulsante in linea -->
 
 <script src="mmdb.js"></script>
 </body>
