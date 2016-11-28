@@ -2,7 +2,7 @@
   "mem": {
     "name": "mem",
     "localStorage": "",
-    "file": "./backend/01/mydata.json",
+    "file": "./backend/mydata.json",
     "connector": "memory"
   }
 }
